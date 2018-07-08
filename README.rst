@@ -61,7 +61,7 @@ Demo credentials for Django CRM:
   * **Email:** admin@mteamcoda.com
   * **Password:** admin
 
-    This is a[demo]https://fast-springs-35499.herokuapp.com/ "demo")
+  Demo -  https://fast-springs-35499.herokuapp.com/
 
 
 
