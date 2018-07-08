@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ae9e231-e6bd-4be6-b4b6-eef5c0afee56" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cases/templates/view_case.html" beforeDir="false" afterPath="$PROJECT_DIR$/cases/templates/view_case.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/templates/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/templates/create.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/templates/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/templates/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/change_password.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/change_password.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/forgot_password.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/forgot_password.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/registration.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,11 +13,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="show_case.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="show_case.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cases/templates/show_case.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="3111">
               <caret line="183" column="36" lean-forward="true" selection-start-line="183" selection-start-column="36" selection-end-line="183" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/common/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="429">
+              <caret line="125" column="9" selection-start-line="125" selection-start-column="9" selection-end-line="125" selection-end-column="9" />
+              <folding>
+                <element signature="e#0#64#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -57,6 +63,7 @@
         <option value="$PROJECT_DIR$/common/templates/create.html" />
         <option value="$PROJECT_DIR$/common/templates/list.html" />
         <option value="$PROJECT_DIR$/cases/templates/view_case.html" />
+        <option value="$PROJECT_DIR$/common/views.py" />
       </list>
     </option>
   </component>
@@ -97,12 +104,6 @@
               <item name="DjangoCRM-Micropyramid" type="b2602c69:ProjectViewProjectNode" />
               <item name="DjangoCRM-Micropyramid" type="462c0819:PsiDirectoryNode" />
               <item name="cases" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DjangoCRM-Micropyramid" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DjangoCRM-Micropyramid" type="462c0819:PsiDirectoryNode" />
-              <item name="cases" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DjangoCRM-Micropyramid" type="b2602c69:ProjectViewProjectNode" />
@@ -186,7 +187,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1526" y="-1072" width="1920" height="1047" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="12" />
       <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
@@ -194,8 +194,8 @@
       <window_info anchor="bottom" id="Version Control" order="1" />
       <window_info anchor="bottom" id="Python Console" order="3" />
       <window_info anchor="bottom" id="Run" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="4" visible="true" weight="0.33223322" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.25215054" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="4" visible="true" weight="0.33223322" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.25215054" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="1" />
       <window_info anchor="bottom" id="Find" order="7" />
@@ -378,16 +378,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="147" column="32" lean-forward="true" selection-start-line="147" selection-start-column="32" selection-end-line="147" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#64#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/templates/list.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -428,6 +418,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3111">
           <caret line="183" column="36" lean-forward="true" selection-start-line="183" selection-start-column="36" selection-end-line="183" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="125" column="9" selection-start-line="125" selection-start-column="9" selection-end-line="125" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#64#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

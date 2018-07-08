@@ -124,7 +124,6 @@ def create_user(request):
         else:
             return render(request, 'create.html', {'user_form': user_form, "errors": user_form.errors})
     else:
-        print(user_form)
         return render(request, 'create.html', {'user_form': user_form})
 
 
