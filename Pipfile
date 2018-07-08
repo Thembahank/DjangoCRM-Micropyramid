@@ -13,6 +13,7 @@ pytz = "*"
 psycopg2-binary = "*"
 redis = "*"
 django-compressor = "*"
+django-simple-pagination = "*"
 coverage = "*"
 pipenv = "*"
 
