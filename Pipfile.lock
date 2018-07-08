@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "ab8c24761dc8e6e699bd87aaeb0533a05bb1597202a75c30c950d26d4068e48a"
+            "sha256": "cde2d1dec1db117b55ff75aee7fedf81854600858dad6ffb56e35161e8621809"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -63,11 +63,9 @@
             "version": "==0.5.0"
         },
         "django": {
-            "hashes": [
-                "sha256:97886b8a13bbc33bfeba2ff133035d3eca014e2309dff2b6da0bdfc0b8656613",
-                "sha256:e900b73beee8977c7b887d90c6c57d68af10066b9dac898e1eaf0f82313de334"
-            ],
-            "version": "==2.0.7"
+            "editable": true,
+            "git": "https://github.com/django/django.git",
+            "ref": "1a34dfcf797640d5d580d261694cb54e6f97c552"
         },
         "django-appconf": {
             "hashes": [

@@ -1,14 +1,6 @@
 from django.conf.urls import include, url
-from django.urls import path
+
 from django.contrib.auth import views
-from django.contrib import admin
-admin.autodiscover()
-
-import hello.views
-
-# Examples:
-# url(r'^$', 'crm.views.home', name='home'),
-# url(r'^blog/', include('blog.urls')),
 
 urlpatterns = [
     url(r'^', include('common.urls', namespace='common')),
@@ -20,6 +12,4 @@ urlpatterns = [
     url(r'^emails/', include('emails.urls', namespace='emails')),
     # url(r'^planner/', include('planner.urls', namespace='planner')),
     url(r'^logout/$', views.logout, {'next_page': '/login/'}, name='logout'),
-    path('admin/', admin.site.urls),
-
 ]
