@@ -9,6 +9,12 @@ verify_ssl = true
 django = "*"
 gunicorn = "*"
 django-heroku = "*"
+pytz = "*"
+psycopg2-binary = "*"
+redis = "*"
+django-compressor = "*"
+coverage = "*"
+pipenv = "*"
 
 
 [requires]
