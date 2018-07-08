@@ -1,7 +1,7 @@
 Django-CRM
 ==========
 
-Forked from https://github.com/MicroPyramid/Django-CRM
+Forked from https://github.com/MicroPyramid/Django-CRM for Heroku
 
 Django 1.11 , Python 3.6 & Bootstrap
 
@@ -56,11 +56,14 @@ $ sudo -u postgres createuser -P -e username
 pipenv install
 
 
-
 Demo credentials for Django CRM:
 
-  * **Email:** admin@micropyramid.com
+  * **Email:** admin@mteamcoda.com
   * **Password:** admin
+
+    This is a[demo]https://fast-springs-35499.herokuapp.com/ "demo")
+
+
 
 
 
