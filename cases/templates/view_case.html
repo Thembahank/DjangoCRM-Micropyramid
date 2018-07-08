@@ -110,6 +110,7 @@
               <div class="row marl">
                 <div class="col-md-12">
                   <form id="comment_form" method="POST" enctype="multipart/form-data">
+                    {% csrf_token %}
                     <div class="form-group">
                       <textarea class="form-control" textarea cols="40" rows="3" id="id_comments" name="comment" placeholder="Submit Your Comments Here"></textarea><span><i id="CommentError" style="display:none; color:red"></i></span>
                       </br>

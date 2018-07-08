@@ -27,6 +27,7 @@
           <div class="card-body">
           <div class="card-title">Filters</div>
           <form id="users_filter" action="" method="POST">
+            {% csrf_token %}
             <div class="row marl">
               <div class="filter_col col-4">
                 <div class="form-group">
